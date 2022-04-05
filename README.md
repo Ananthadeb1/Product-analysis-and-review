@@ -1,4 +1,11 @@
 # Getting Started with Create React App
+## This project is about
+ Markup : * Product Intro./
+          * Customer Review./
+          * Dashboard./
+          * Blog./
+#[live link] ( https://cerulean-salmiakki-ec8d5c.netlify.app/)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

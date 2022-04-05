@@ -1,11 +1,7 @@
-
-import SingleReview from '../../Single-review/Review';
-import useReviews from '../hooks/useReviews';
 import './home.css'
 import '../Review/reviews.css'
 
 const Home = () => {
-    const [reviews, setReviews] = useReviews();
     return (
         <div>
             <div className='grid row container-fluid'>
@@ -23,7 +19,7 @@ const Home = () => {
                 </div>
                 <div className='p-5 col-5'>
 
-                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/30170735301033.56f187552a91c.jpg" className='img-fluid' alt="" />
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.y_wb8CVA66F_BKnSeoi-pgHaHa&pid=Api&P=0&w=174&h=174" className='img-fluid' alt="" />
                 </div>
             </div>
             <div className='review-section'>

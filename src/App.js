@@ -12,7 +12,6 @@ import Review from './components/Review/Reviews';
 function App() {
   return (
     <div className="App">
-      Anantha Debnath
     <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>} ></Route>
