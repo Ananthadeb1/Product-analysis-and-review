@@ -19,7 +19,7 @@ const Home = () => {
                 </div>
                 <div className='p-5 col-5'>
 
-                    <img src="https://tse2.mm.bing.net/th?id=OIP.y_wb8CVA66F_BKnSeoi-pgHaHa&pid=Api&P=0&w=174&h=174" className='img-fluid' alt="" />
+                    <img src="https://media.wired.com/photos/6063a637b1232f1d308ec1d9/master/w_2003,h_1498,c_limit/Gear-9Barista-Espresso-Maker-SOURCE-9Barista.jpg" className='img-fluid' alt="" />
                 </div>
             </div>
             <div className='review-section'>
