@@ -6,6 +6,7 @@ import Chart from './components/chart/Chart';
 import Header from './components/header/Header';
 import Home from './components/Home/Home';
 import Review from './components/Review/Reviews';
+import Blogs from './components/blogs/Blogs';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/home' element={<Home></Home>} ></Route>
         <Route path='/review' element={<Review></Review>}></Route>
         <Route path='/chart' element={<Chart></Chart>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
       </Routes>
     </div>
   );
