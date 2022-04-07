@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 // import { Routes } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
@@ -6,7 +5,6 @@ import './App.css';
 import Chart from './components/chart/Chart';
 import Header from './components/header/Header';
 import Home from './components/Home/Home';
-import useReviews from './components/hooks/useReviews';
 import Review from './components/Review/Reviews';
 
 function App() {
