@@ -1,7 +1,11 @@
 import './home.css'
 import '../Review/reviews.css'
+import { Link } from 'react-router-dom';
+import SingleReview from '../../Single-review/Review';
+import useReviews from '../hooks/useReviews';
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews();
     return (
         <div>
             <div className='grid row container-fluid'>
@@ -25,12 +29,13 @@ const Home = () => {
             <div className='review-section'>
                 <h2 className='Customer-review-heading mx-auto'>Customer reviews(3)</h2>
                 <div className='review-container'>
-
-                    {/* <SingleReview review={reviews[0]}></SingleReview>
+    
+                    <SingleReview review={reviews[0]}></SingleReview>
                     <SingleReview review={reviews[1]}></SingleReview>
-                    <SingleReview review={reviews[2]}></SingleReview> */}
+                    <SingleReview review={reviews[2]}></SingleReview>
 
                 </div>
+                <Link to={'/review'}></Link>
                 <h4 className='mx-auto review-button'>See All Reviews</h4>
             </div>
         </div>
